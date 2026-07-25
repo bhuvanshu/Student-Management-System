@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management</title>
+</head>
+<body>
+
+<h1>Student Management System</h1>
+
+<h2>Add Student</h2>
+
+<form id="studentForm">
+
+    <div>
+        <label for="name">Name:</label>
+        <input
+                type="text"
+                id="name"
+                placeholder="Enter student name"
+                required
+        >
+    </div>
+
+    <br>
+
+    <div>
+        <label for="email">Email:</label>
+        <input
+                type="email"
+                id="email"
+                placeholder="Enter student email"
+                required
+        >
+    </div>
+
+    <br>
+
+    <div>
+        <label for="course">Course:</label>
+        <input
+                type="text"
+                id="course"
+                placeholder="Enter student course"
+                required
+        >
+    </div>
+
+    <br>
+
+    <button type="submit">
+        Add Student
+    </button>
+
+</form>
+
+<p id="message"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
